@@ -26,6 +26,15 @@
 		F1244C7F14DAD7AA00ED8A77 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1244C7D14DAD7AA00ED8A77 /* InfoPlist.strings */; };
 		F1244C8214DAD7AA00ED8A77 /* XMLTests.h in Resources */ = {isa = PBXBuildFile; fileRef = F1244C8114DAD7AA00ED8A77 /* XMLTests.h */; };
 		F1244C8414DAD7AA00ED8A77 /* XMLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1244C8314DAD7AA00ED8A77 /* XMLTests.m */; };
+		F1244C9314DAD83700ED8A77 /* Detail.m in Sources */ = {isa = PBXBuildFile; fileRef = F1244C9014DAD83700ED8A77 /* Detail.m */; };
+		F1244C9414DAD83700ED8A77 /* Detail.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1244C9114DAD83700ED8A77 /* Detail.xib */; };
+		F1244C9614DAD85200ED8A77 /* test.xml in Resources */ = {isa = PBXBuildFile; fileRef = F1244C9514DAD85200ED8A77 /* test.xml */; };
+		F1244C9C14DAD86100ED8A77 /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F1244C9814DAD86100ED8A77 /* XMLParser.m */; };
+		F1244C9D14DAD86100ED8A77 /* XMLTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1244C9A14DAD86100ED8A77 /* XMLTableViewController.m */; };
+		F1244C9E14DAD86100ED8A77 /* XMLTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1244C9B14DAD86100ED8A77 /* XMLTableViewController.xib */; };
+		F1A3887014E5778D001A1DCA /* tocloc.png in Resources */ = {isa = PBXBuildFile; fileRef = F1A3886F14E5778D001A1DCA /* tocloc.png */; };
+		F1AC140014E41FE400872CFE /* bas.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AC13FF14E41FE400872CFE /* bas.png */; };
+		F1B4336814E52B2600D426CA /* MyCustomNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B4336714E52B2600D426CA /* MyCustomNavigationBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,25 +53,38 @@
 		F1244C4B14DAD7AA00ED8A77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F1244C4D14DAD7AA00ED8A77 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		F1244C4F14DAD7AA00ED8A77 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		F1244C5314DAD7AA00ED8A77 /* XML-Info.plist */ = {isa = PBXFileReference; path = "XML-Info.plist"; sourceTree = "<group>"; };
+		F1244C5314DAD7AA00ED8A77 /* XML-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XML-Info.plist"; sourceTree = "<group>"; };
 		F1244C5514DAD7AA00ED8A77 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F1244C5714DAD7AA00ED8A77 /* XML-Prefix.pch */ = {isa = PBXFileReference; path = "XML-Prefix.pch"; sourceTree = "<group>"; };
+		F1244C5714DAD7AA00ED8A77 /* XML-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XML-Prefix.pch"; sourceTree = "<group>"; };
 		F1244C5814DAD7AA00ED8A77 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F1244C5A14DAD7AA00ED8A77 /* XMLAppDelegate.h */ = {isa = PBXFileReference; path = XMLAppDelegate.h; sourceTree = "<group>"; };
+		F1244C5A14DAD7AA00ED8A77 /* XMLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMLAppDelegate.h; sourceTree = "<group>"; };
 		F1244C5B14DAD7AA00ED8A77 /* XMLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMLAppDelegate.m; sourceTree = "<group>"; };
 		F1244C5E14DAD7AA00ED8A77 /* XML.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = XML.xcdatamodel; sourceTree = "<group>"; };
-		F1244C6114DAD7AA00ED8A77 /* XMLAppDelegate_iPhone.h */ = {isa = PBXFileReference; name = XMLAppDelegate_iPhone.h; path = iPhone/XMLAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		F1244C6114DAD7AA00ED8A77 /* XMLAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = XMLAppDelegate_iPhone.h; path = iPhone/XMLAppDelegate_iPhone.h; sourceTree = "<group>"; };
 		F1244C6214DAD7AA00ED8A77 /* XMLAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = XMLAppDelegate_iPhone.m; path = iPhone/XMLAppDelegate_iPhone.m; sourceTree = "<group>"; };
 		F1244C6514DAD7AA00ED8A77 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
-		F1244C6814DAD7AA00ED8A77 /* XMLAppDelegate_iPad.h */ = {isa = PBXFileReference; name = XMLAppDelegate_iPad.h; path = iPad/XMLAppDelegate_iPad.h; sourceTree = "<group>"; };
+		F1244C6814DAD7AA00ED8A77 /* XMLAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = XMLAppDelegate_iPad.h; path = iPad/XMLAppDelegate_iPad.h; sourceTree = "<group>"; };
 		F1244C6914DAD7AA00ED8A77 /* XMLAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = XMLAppDelegate_iPad.m; path = iPad/XMLAppDelegate_iPad.m; sourceTree = "<group>"; };
 		F1244C6C14DAD7AA00ED8A77 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
 		F1244C7314DAD7AA00ED8A77 /* XMLTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMLTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F1244C7C14DAD7AA00ED8A77 /* XMLTests-Info.plist */ = {isa = PBXFileReference; path = "XMLTests-Info.plist"; sourceTree = "<group>"; };
+		F1244C7C14DAD7AA00ED8A77 /* XMLTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XMLTests-Info.plist"; sourceTree = "<group>"; };
 		F1244C7E14DAD7AA00ED8A77 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F1244C8014DAD7AA00ED8A77 /* XMLTests-Prefix.pch */ = {isa = PBXFileReference; path = "XMLTests-Prefix.pch"; sourceTree = "<group>"; };
+		F1244C8014DAD7AA00ED8A77 /* XMLTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XMLTests-Prefix.pch"; sourceTree = "<group>"; };
 		F1244C8114DAD7AA00ED8A77 /* XMLTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMLTests.h; sourceTree = "<group>"; };
 		F1244C8314DAD7AA00ED8A77 /* XMLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMLTests.m; sourceTree = "<group>"; };
+		F1244C8F14DAD83700ED8A77 /* Detail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Detail.h; sourceTree = "<group>"; };
+		F1244C9014DAD83700ED8A77 /* Detail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Detail.m; sourceTree = "<group>"; };
+		F1244C9114DAD83700ED8A77 /* Detail.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Detail.xib; sourceTree = "<group>"; };
+		F1244C9514DAD85200ED8A77 /* test.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = test.xml; sourceTree = "<group>"; };
+		F1244C9714DAD86100ED8A77 /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
+		F1244C9814DAD86100ED8A77 /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParser.m; sourceTree = "<group>"; };
+		F1244C9914DAD86100ED8A77 /* XMLTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLTableViewController.h; sourceTree = "<group>"; };
+		F1244C9A14DAD86100ED8A77 /* XMLTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLTableViewController.m; sourceTree = "<group>"; };
+		F1244C9B14DAD86100ED8A77 /* XMLTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMLTableViewController.xib; sourceTree = "<group>"; };
+		F1A3886F14E5778D001A1DCA /* tocloc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tocloc.png; sourceTree = "<group>"; };
+		F1AC13FF14E41FE400872CFE /* bas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bas.png; sourceTree = "<group>"; };
+		F1B4336614E52B2600D426CA /* MyCustomNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCustomNavigationBar.h; sourceTree = "<group>"; };
+		F1B4336714E52B2600D426CA /* MyCustomNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCustomNavigationBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +116,14 @@
 		F1244C3A14DAD7AA00ED8A77 = {
 			isa = PBXGroup;
 			children = (
+				F1AC13FF14E41FE400872CFE /* bas.png */,
 				F1244C5114DAD7AA00ED8A77 /* XML */,
+				F1244C9714DAD86100ED8A77 /* XMLParser.h */,
+				F1244C9814DAD86100ED8A77 /* XMLParser.m */,
+				F1A3886F14E5778D001A1DCA /* tocloc.png */,
+				F1244C9914DAD86100ED8A77 /* XMLTableViewController.h */,
+				F1244C9A14DAD86100ED8A77 /* XMLTableViewController.m */,
+				F1244C9B14DAD86100ED8A77 /* XMLTableViewController.xib */,
 				F1244C7A14DAD7AA00ED8A77 /* XMLTests */,
 				F1244C4814DAD7AA00ED8A77 /* Frameworks */,
 				F1244C4614DAD7AA00ED8A77 /* Products */,
@@ -124,9 +153,15 @@
 		F1244C5114DAD7AA00ED8A77 /* XML */ = {
 			isa = PBXGroup;
 			children = (
+				F1244C9514DAD85200ED8A77 /* test.xml */,
+				F1244C5D14DAD7AA00ED8A77 /* XML.xcdatamodeld */,
 				F1244C5A14DAD7AA00ED8A77 /* XMLAppDelegate.h */,
 				F1244C5B14DAD7AA00ED8A77 /* XMLAppDelegate.m */,
-				F1244C5D14DAD7AA00ED8A77 /* XML.xcdatamodeld */,
+				F1B4336614E52B2600D426CA /* MyCustomNavigationBar.h */,
+				F1B4336714E52B2600D426CA /* MyCustomNavigationBar.m */,
+				F1244C8F14DAD83700ED8A77 /* Detail.h */,
+				F1244C9014DAD83700ED8A77 /* Detail.m */,
+				F1244C9114DAD83700ED8A77 /* Detail.xib */,
 				F1244C6014DAD7AA00ED8A77 /* iPhone */,
 				F1244C6714DAD7AA00ED8A77 /* iPad */,
 				F1244C5214DAD7AA00ED8A77 /* Supporting Files */,
@@ -255,6 +290,11 @@
 				F1244C5614DAD7AA00ED8A77 /* InfoPlist.strings in Resources */,
 				F1244C6614DAD7AA00ED8A77 /* MainWindow_iPhone.xib in Resources */,
 				F1244C6D14DAD7AA00ED8A77 /* MainWindow_iPad.xib in Resources */,
+				F1244C9414DAD83700ED8A77 /* Detail.xib in Resources */,
+				F1244C9614DAD85200ED8A77 /* test.xml in Resources */,
+				F1244C9E14DAD86100ED8A77 /* XMLTableViewController.xib in Resources */,
+				F1AC140014E41FE400872CFE /* bas.png in Resources */,
+				F1A3887014E5778D001A1DCA /* tocloc.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +335,10 @@
 				F1244C5F14DAD7AA00ED8A77 /* XML.xcdatamodeld in Sources */,
 				F1244C6314DAD7AA00ED8A77 /* XMLAppDelegate_iPhone.m in Sources */,
 				F1244C6A14DAD7AA00ED8A77 /* XMLAppDelegate_iPad.m in Sources */,
+				F1244C9314DAD83700ED8A77 /* Detail.m in Sources */,
+				F1244C9C14DAD86100ED8A77 /* XMLParser.m in Sources */,
+				F1244C9D14DAD86100ED8A77 /* XMLTableViewController.m in Sources */,
+				F1B4336814E52B2600D426CA /* MyCustomNavigationBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,6 +521,7 @@
 				F1244C8914DAD7AA00ED8A77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F1244C8A14DAD7AA00ED8A77 /* Build configuration list for PBXNativeTarget "XMLTests" */ = {
 			isa = XCConfigurationList;
@@ -485,6 +530,7 @@
 				F1244C8C14DAD7AA00ED8A77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products type="array">
+  <product>
+    <id type="integer">2701</id>
+    <label>Un majestueux sopalin en plastique</label>
+    <description type="string">http://www.arpla.fr/canal20/adnm/wp-content/uploads/2009/05/st_alphageek_f.jpg</description>
+    <deposit type="integer">10000</deposit>
+    <category-id type="integer">116</category-id>
+    <owner-id type="integer">101</owner-id>
+    <owner-type type="integer">0</owner-type>
+  </product>
+  <product>
+    <id type="integer">2702</id>
+    <label>Un époustoufflant barbecue en bois</label>
+     <description>http://iphonedevelopertips.com/images/logo-iphone-dev-tips.png</description>
+    <deposit type="integer">10000</deposit>
+    <category-id type="integer">118</category-id>
+    <owner-id type="integer">101</owner-id>
+    <owner-type type="integer">0</owner-type>
+  </product>
+  <product>
+    <id type="integer">2703</id>
+    <label>Un majestueux voiture en verre</label>
+    <description>http://upload.wikimedia.org/wikipedia/commons/thumb/4/47/PNG_transparency_demonstration_1.png/300px-PNG_transparency_demonstration_1.png</description>
+    <deposit type="integer">10000</deposit>
+    <category-id type="integer">115</category-id>
+    <owner-id type="integer">101</owner-id>
+    <owner-type type="integer">0</owner-type>
+  </product>
+  <product>
+    <id type="integer">2704</id>
+    <label>Un gros barbecue en carton</label>
+    <description>http://upload.wikimedia.org/wikipedia/commons/7/7d/Ww2_GermanDivision_Panzer_12.PNG.png</description>
+    <deposit type="integer">10000</deposit>
+    <category-id type="integer">120</category-id>
+    <owner-id type="integer">101</owner-id>
+    <owner-type type="integer">0</owner-type>
+  </product>
+  <product>
+    <id type="integer">2705</id>
+    <label>Un fantastique ordinateur en polymere</label>
+    <description>http://www.adepem.com/img/logos/logo-fers-a-repasser.png</description>
+    <deposit type="integer">10000</deposit>
+    <category-id type="integer">112</category-id>
+    <owner-id type="integer">101</owner-id>
+    <owner-type type="integer">0</owner-type>
+  </product>
+  <product>
+    <id type="integer">2706</id>
+    <label>Le grand console en verre</label>
+    <description>http://www.axialis.fr/objects/ip_icon_02_Cancel.png</description>
+    <deposit type="integer">10000</deposit>
+    <category-id type="integer">115</category-id>
+    <owner-id type="integer">101</owner-id>
+    <owner-type type="integer">0</owner-type>
+  </product>
+  <product>
+    <id type="integer">2707</id>
+    <label>Le grand scoubidou en carton</label>
+    <description>Ctoffee sweet roll.</description>
+    <deposit type="integer">10000</deposit>
+    <category-id type="integer">113</category-id>
+    <owner-id type="integer">101</owner-id>
+    <owner-type type="integer">0</owner-type>
+  </product>
+  <product>
+    <id type="integer">2708</id>
+    <label>La fantastique ordinateur en polystirene</label>
+    <description>Cupcake oa.</description>
+    <deposit type="integer">10000</deposit>
+    <category-id type="integer">112</category-id>
+    <owner-id type="integer">101</owner-id>
+    <owner-type type="integer">0</owner-type>
+  </product>
+  <product>
+    <id type="integer">2709</id>
+    <label>Un fantastique valise en plastique</label>
+    <description>Cupcak.</description>
+    <deposit type="integer">10000</deposit>
+    <category-id type="integer">118</category-id>
+    <owner-id type="integer">101</owner-id>
+    <owner-type type="integer">0</owner-type>
+  </product>
+  <product>
+    <id type="integer">2710</id>
+    <label>Un époustoufflant sac en plastique</label>
+    <description>Cupcak.</description>
+    <deposit type="integer">10000</deposit>
+    <category-id type="integer">118</category-id>
+    <owner-id type="integer">101</owner-id>
+    <owner-type type="integer">0</owner-type>
+  </product>
+  <product>
+    <id type="integer">2701</id>
+    <label>Un majestueux sopalin en plastique</label>
+    <description>Cupcake ip</description>
+    <deposit type="integer">10000</deposit>
+    <category-id type="integer">116</category-id>
+    <owner-id type="integer">101</owner-id>
+    <owner-type type="integer">0</owner-type>
+  </product>
+  <product>
+    <id type="integer">2702</id>
+    <label>Un époustoufflant barbecue en bois</label>
+    <description>Cupc roll.</description>
+    <deposit type="integer">10000</deposit>
+    <category-id type="integer">118</category-id>
+    <owner-id type="integer">101</owner-id>
+    <owner-type type="integer">0</owner-type>
+  </product>
+  <product>
+    <id type="integer">2703</id>
+    <label>Un majestueux voiture en verre</label>
+    <description>Cupca sweet roll.</description>
+    <deposit type="integer">10000</deposit>
+    <category-id type="integer">115</category-id>
+    <owner-id type="integer">101</owner-id>
+    <owner-type type="integer">0</owner-type>
+  </product>
+  <product>
+    <id type="integer">2704</id>
+    <label>Un gros barbecue en carton</label>
+    <description>Cupcaake mw wafer toffee sweet roll.</description>
+    <deposit type="integer">10000</deposit>
+    <category-id type="integer">120</category-id>
+    <owner-id type="integer">101</owner-id>
+    <owner-type type="integer">0</owner-type>
+  </product>
+  <product>
+    <id type="integer">2705</id>
+    <label>Un fantastique ordinateur en polymere</label>
+    <description>Cupcl.</description>
+    <deposit type="integer">10000</deposit>
+    <category-id type="integer">112</category-id>
+    <owner-id type="integer">101</owner-id>
+    <owner-type type="integer">0</owner-type>
+  </product>
+  <product>
+    <id type="integer">2706</id>
+    <label>Le grand console en verre</label>
+    <description>Cupcakell.</description>
+    <deposit type="integer">10000</deposit>
+    <category-id type="integer">115</category-id>
+    <owner-id type="integer">101</owner-id>
+    <owner-type type="integer">0</owner-type>
+  </product>
+  <product>
+    <id type="integer">2707</id>
+    <label>Le grand scoubidou en carton</label>
+    <description>Ctoffee sweet roll.</description>
+    <deposit type="integer">10000</deposit>
+    <category-id type="integer">113</category-id>
+    <owner-id type="integer">101</owner-id>
+    <owner-type type="integer">0</owner-type>
+  </product>
+  <product>
+    <id type="integer">2708</id>
+    <label>La fantastique ordinateur en polystirene</label>
+    <description>Cupcake oa.</description>
+    <deposit type="integer">10000</deposit>
+    <category-id type="integer">112</category-id>
+    <owner-id type="integer">101</owner-id>
+    <owner-type type="integer">0</owner-type>
+  </product>
+  <product>
+    <id type="integer">2709</id>
+    <label>Un fantastique valise en plastique</label>
+    <description>Cupcak.</description>
+    <deposit type="integer">10000</deposit>
+    <category-id type="integer">118</category-id>
+    <owner-id type="integer">101</owner-id>
+    <owner-type type="integer">0</owner-type>
+  </product>
+  <product>
+    <id type="integer">2710</id>
+    <label>Un époustoufflant sac en plastique</label>
+    <description>Cupcak.</description>
+    <deposit type="integer">10000</deposit>
+    <category-id type="integer">118</category-id>
+    <owner-id type="integer">101</owner-id>
+    <owner-type type="integer">0</owner-type>
+  </product>
+</products>

@@ -2,16 +2,31 @@
 //  XMLAppDelegate.m
 //  XML
 //
-//  Created by supinfo on 02/02/12.
+//  Created by supinfo on 13/01/12.
 //  Copyright 2012 __MyCompanyName__. All rights reserved.
 //
 
 #import "XMLAppDelegate.h"
 
+@implementation UINavigationBar (UINavigationBarCategory)  
+
+- (void)drawRect:(CGRect)rect  
+{  
+    UIImage *image = [UIImage imageNamed:@"tocloc.png"];  
+    
+    [image drawInRect:rect];  
+}  
+
+@end
+
 @implementation XMLAppDelegate
 
 
-@synthesize window=_window;
+@synthesize window;
+
+@synthesize detailview;
+
+@synthesize navController;
 
 @synthesize managedObjectContext=__managedObjectContext;
 
@@ -19,11 +34,19 @@
 
 @synthesize persistentStoreCoordinator=__persistentStoreCoordinator;
 
+@synthesize navbar;
+
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    tableViewController =[[XMLTableViewController alloc] initWithStyle:UITableViewStylePlain];
+    navController = [[UINavigationController alloc] initWithRootViewController:tableViewController];
+    [self.window addSubview:navController.view];    
+    MyCustomNavigationBar *test= [[MyCustomNavigationBar alloc] init ];
     [self.window makeKeyAndVisible];
     return YES;
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
@@ -64,7 +87,10 @@
 
 - (void)dealloc
 {
-    [_window release];
+    [detailview release];
+    [navController release];
+    [tableViewController release];
+    [window release];
     [__managedObjectContext release];
     [__managedObjectModel release];
     [__persistentStoreCoordinator release];
@@ -76,7 +102,7 @@
     /*
      Typically you should set up the Core Data stack here, usually by passing the managed object context to the first view controller.
      self.<#View controller#>.managedObjectContext = self.managedObjectContext;
-    */
+     */
 }
 
 - (void)saveContext
